@@ -1,0 +1,34 @@
+{
+  "name": "@carnesen/carnesen-dot-com",
+  "version": "0.0.0",
+  "description": "A Node.js library for deploying carnesen.com projects to Google Cloud Platform",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "eslint": "eslint src",
+    "eslint:fix": "npm run eslint -- --fix",
+    "test": "npm run eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carnesen/carnesen-dot-com.git"
+  },
+  "author": "Chris Arnesen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carnesen/carnesen-dot-com/issues"
+  },
+  "homepage": "https://github.com/carnesen/carnesen-dot-com",
+  "devDependencies": {
+    "eslint": "5.5.0",
+    "eslint-config-carnesen": "1.1.1",
+    "eslint-plugin-prettier": "2.6.2",
+    "jest": "23.6.0",
+    "prettier": "1.14.2"
+  },
+  "dependencies": {
+    "@carnesen/gcp": "*"
+  }
+}
