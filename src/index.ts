@@ -1,7 +1,9 @@
 import { App, runAndExit, SiteType } from '@carnesen/google-cloud';
 
-const projectId = 'carnesen-tmp';
-const zoneName = 'carnesen-tmp-com';
+// const projectId = 'carnesen-tmp';
+// const zoneName = 'carnesen-tmp-com';
+const projectId = 'carnesen-209303';
+const zoneName = 'carnesen';
 
 const app = new App({
   context: {
