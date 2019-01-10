@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "rimraf lib && tsc --project tsconfig.build.json",
+    "deploy": "npm run test && node lib/deploy.js",
     "lint": "tslint --project tsconfig.build.json",
     "lint:fix": "npm run lint -- --fix",
     "test": "npm run lint && npm run build",
@@ -19,14 +20,15 @@
     "@carnesen/google-cloud": "0.0.0",
     "@carnesen/mathjs-app": "0.0.5",
     "@carnesen/meme-me": "github:carnesen/meme-me",
+    "@carnesen/redirector": "0.0.0",
     "@carnesen/reveal-me": "github:carnesen/reveal-me",
     "@carnesen/run-and-exit": "0.1.0",
-    "@carnesen/www": "0.0.0"
+    "@carnesen/www": "0.0.4"
   },
   "devDependencies": {
     "@carnesen/tsconfig": "0.1.0",
     "@carnesen/tslint-config": "0.1.2",
-    "@types/node": "8.10.39",
+    "@types/node": "10.12.18",
     "rimraf": "2.6.3",
     "ts-node": "7.0.1",
     "tslint": "5.12.0",
