@@ -1,10 +1,9 @@
-import { deployApp } from '@carnesen/google-cloud';
 import runAndExit = require('@carnesen/run-and-exit');
+import { deployApp } from '@carnesen/google-cloud';
 
 runAndExit(deployApp, {
   projectId: 'carnesen-209303',
   zoneName: 'carnesen',
-  requireResolve: require.resolve,
   defaultSite: {
     siteType: 'nodejs',
     packageId: '@carnesen/redirector',
