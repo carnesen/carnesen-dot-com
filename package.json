@@ -23,7 +23,7 @@
     "@carnesen/redirector": "0.0.0",
     "@carnesen/reveal-me": "github:carnesen/reveal-me",
     "@carnesen/run-and-exit": "0.1.0",
-    "@carnesen/www": "0.0.4"
+    "@carnesen/www": "^0.1.0"
   },
   "devDependencies": {
     "@carnesen/tsconfig": "0.1.0",
