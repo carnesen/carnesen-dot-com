@@ -1,4 +1,4 @@
-import runAndExit = require('@carnesen/run-and-exit');
+import { runAndExit } from '@carnesen/run-and-exit';
 import { deployApp } from '@carnesen/google-cloud';
 
 runAndExit(deployApp, {
