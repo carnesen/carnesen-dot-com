@@ -19,9 +19,9 @@
     "@carnesen/buzz": "github:carnesen/buzz",
     "@carnesen/google-cloud": "0.0.0",
     "@carnesen/mathjs-app": "0.0.5",
-    "@carnesen/meme-me": "github:carnesen/meme-me",
+    "@carnesen/meme-me": "github:carnesen/meme-me#2020.5.0",
     "@carnesen/redirector": "0.0.0",
-    "@carnesen/reveal-me": "github:carnesen/reveal-me",
+    "@carnesen/reveal-me": "github:carnesen/reveal-me#2020.5.0",
     "@carnesen/run-and-exit": "0.2.0",
     "@carnesen/www": "0.2.0"
   },
