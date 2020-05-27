@@ -10,6 +10,11 @@ runAndExit(deployApp, {
   },
   otherSites: [
     {
+      siteType: 'static',
+      siteName: 'www',
+      packageId: '@carnesen/www',
+    },
+    {
       siteType: 'nodejs',
       siteName: 'reveal-me',
       packageId: '@carnesen/reveal-me',
@@ -23,11 +28,6 @@ runAndExit(deployApp, {
       siteType: 'nodejs',
       siteName: 'mathjs',
       packageId: '@carnesen/mathjs-app',
-    },
-    {
-      siteType: 'static',
-      siteName: 'www',
-      packageId: '@carnesen/www',
     },
     {
       siteType: 'nodejs',

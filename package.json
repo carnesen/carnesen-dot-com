@@ -21,7 +21,7 @@
     "@carnesen/redirector": "0.1.1",
     "@carnesen/reveal-me": "github:carnesen/reveal-me#2020.5.0",
     "@carnesen/run-and-exit": "0.2.1",
-    "@carnesen/www": "0.2.0"
+    "@carnesen/www": "2020.5.0"
   },
   "devDependencies": {
     "@carnesen/tsconfig": "0.2.0",
