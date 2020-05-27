@@ -1,38 +1,36 @@
 {
   "name": "@carnesen/carnesen-dot-com",
-  "private": true,
-  "version": "0.0.0-0",
   "description": "Automates deployment of carnesen.com to Google Cloud Platform",
+  "private": true,
+  "version": "2020.5.0",
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.0.0"
   },
   "scripts": {
-    "build": "rimraf lib && tsc --project tsconfig.build.json",
+    "build": "rimraf lib/ && tsc",
     "deploy": "npm run test && node lib/deploy.js",
-    "lint": "tslint --project tsconfig.build.json",
-    "lint:fix": "npm run lint -- --fix",
-    "test": "npm run lint && npm run build",
-    "preversion": "npm test",
-    "postversion": "npm publish"
+    "lint": "eslint --ext .ts src/",
+    "fix": "npm run lint -- --fix",
+    "test": "npm run lint && npm run build"
   },
   "dependencies": {
-    "@carnesen/buzz": "github:carnesen/buzz",
-    "@carnesen/google-cloud": "0.0.0",
-    "@carnesen/mathjs-app": "0.0.5",
+    "@carnesen/buzz": "github:carnesen/buzz#2020.5.0",
+    "@carnesen/google-cloud": "0.1.0",
+    "@carnesen/mathjs-app": "0.1.0",
     "@carnesen/meme-me": "github:carnesen/meme-me#2020.5.0",
-    "@carnesen/redirector": "0.0.0",
+    "@carnesen/redirector": "0.1.1",
     "@carnesen/reveal-me": "github:carnesen/reveal-me#2020.5.0",
-    "@carnesen/run-and-exit": "0.2.0",
+    "@carnesen/run-and-exit": "0.2.1",
     "@carnesen/www": "0.2.0"
   },
   "devDependencies": {
-    "@carnesen/tsconfig": "0.1.0",
-    "@carnesen/tslint-config": "0.1.2",
-    "@types/node": "10.12.21",
-    "rimraf": "2.6.3",
-    "ts-node": "8.0.2",
-    "tslint": "5.12.1",
-    "typescript": "3.3.1"
+    "@carnesen/tsconfig": "0.2.0",
+    "@types/node": "14.0.5",
+    "eslint": "7.1.0",
+    "eslint-config-carnesen": "2.0.0",
+    "rimraf": "3.0.2",
+    "ts-node": "8.10.1",
+    "typescript": "3.9.3"
   },
   "repository": {
     "type": "git",
