@@ -1,4 +1,4 @@
-# @carnesen/carnesen-dot-com [![Build Status](https://travis-ci.com/carnesen/carnesen-dot-com.svg?branch=master)](https://travis-ci.com/carnesen/carnesen-dot-com)
+# @carnesen/carnesen-dot-com [![build status badge](https://github.com/carnesen/carnesen-dot-com/workflows/test/badge.svg)](https://github.com/carnesen/carnesen-dot-com/actions?query=workflow%3Atest+branch%3Amaster)
 
 Automates deployment of [carnesen.com](https://carnesen.com) to Google Cloud Platform
 
