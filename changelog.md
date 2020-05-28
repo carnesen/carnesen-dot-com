@@ -1,6 +1,7 @@
 # `@carnesen/carnesen-dot-com` change log
-
-## [2020.5.0]
+## May 28, 2020
+Deploy www as nodejs service
+## May 25, 2020
 ### Breaking
 - Drop support for Node.js 8
 ### Added
