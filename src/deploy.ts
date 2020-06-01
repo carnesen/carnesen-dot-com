@@ -10,6 +10,11 @@ runAndExit(deployApp, {
   },
   otherSites: [
     {
+      siteType: 'static',
+      siteName: 'cli',
+      packageId: '@carnesen/cli',
+    },
+    {
       siteType: 'nodejs',
       siteName: 'www',
       packageId: '@carnesen/www',
