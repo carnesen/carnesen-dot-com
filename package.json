@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@carnesen/buzz": "github:carnesen/buzz#2020.5.0",
-    "@carnesen/cli": "0.5.0-4",
+    "@carnesen/cli-web": "0.5.0-9",
     "@carnesen/google-cloud": "0.1.0",
     "@carnesen/mathjs-app": "0.1.0",
     "@carnesen/meme-me": "github:carnesen/meme-me#2020.5.0",
