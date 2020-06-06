@@ -12,7 +12,7 @@ runAndExit(deployApp, {
     {
       siteType: 'static',
       siteName: 'cli',
-      packageId: '@carnesen/cli-web',
+      packageId: '@carnesen/cli',
     },
     {
       siteType: 'nodejs',
