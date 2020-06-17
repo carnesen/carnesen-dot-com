@@ -1,6 +1,10 @@
 # `@carnesen/carnesen-dot-com` change log
+## June 17, 2020
+Deploy cli from @carnesen/cli-website
+
 ## May 28, 2020
 Deploy www as nodejs service
+
 ## May 25, 2020
 ### Breaking
 - Drop support for Node.js 8
