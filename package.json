@@ -20,7 +20,7 @@
 		"@carnesen/mathjs-app": "0.1.0",
 		"@carnesen/meme-me": "github:carnesen/meme-me#2020.5.0",
 		"@carnesen/redirector": "0.1.2",
-		"@carnesen/reveal-me": "github:carnesen/reveal-me#2020.5.0",
+		"@carnesen/reveal-me": "github:carnesen/reveal-me#2020.7.0",
 		"@carnesen/run-and-exit": "0.3.1",
 		"@carnesen/www": "2020.6.0"
 	},
