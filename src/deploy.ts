@@ -40,4 +40,5 @@ runAndExit(deployApp, {
 			packageId: '@carnesen/meme-me',
 		},
 	],
+	requireResolve: require.resolve,
 });
