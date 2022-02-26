@@ -4,34 +4,34 @@
 	"private": true,
 	"version": "0.0.0-0",
 	"engines": {
-		"node": ">=14.0.0"
+		"node": ">=16.0.0"
 	},
 	"scripts": {
-		"build": "rimraf lib/ && tsc",
+		"build": "rm -rf lib/ && tsc",
 		"deploy": "npm run test && node lib/deploy.js",
 		"lint": "eslint --ext .ts src/",
 		"fix": "npm run lint -- --fix",
 		"test": "npm run lint && npm run build"
 	},
 	"dependencies": {
-		"@carnesen/buzz": "github:carnesen/buzz#2020.8.0",
-		"@carnesen/cli-website-server": "2020.9.1",
-		"@carnesen/google-cloud": "0.1.0",
-		"@carnesen/mathjs-app": "0.1.0",
-		"@carnesen/meme-me": "github:carnesen/meme-me#2020.8.0",
-		"@carnesen/redirector": "0.2.0",
-		"@carnesen/reveal-me": "github:carnesen/reveal-me#2020.7.0",
-		"@carnesen/run-and-exit": "0.3.2",
-		"@carnesen/www": "2020.8.0"
+		"@carnesen/buzz": "github:carnesen/buzz#carnesen-buzz-2022.2.0",
+		"@carnesen/cli-website-server": "2022.2.0",
+		"@carnesen/google-cloud": "0.3.0",
+		"@carnesen/mathjs-app": "2022.2.1",
+		"@carnesen/meme-me": "github:carnesen/meme-me#carnesen-meme-me-2022.2.0",
+		"@carnesen/redirector": "0.3.0",
+		"@carnesen/reveal-me": "github:carnesen/reveal-me#carnesen-reveal-me-2022.2.0",
+		"@carnesen/run-and-exit": "1.0.0",
+		"@carnesen/www": "2022.2.0"
 	},
 	"devDependencies": {
-		"@carnesen/tsconfig": "0.4.0",
-		"@types/node": "14.10.1",
-		"eslint": "7.9.0",
-		"eslint-config-carnesen": "4.6.0",
-		"rimraf": "3.0.2",
-		"ts-node": "9.0.0",
-		"typescript": "4.0.2"
+		"@carnesen/dev": "0.1.0",
+		"@carnesen/tsconfig": "0.4.1",
+		"@types/node": "17.0.21",
+		"eslint": "7.32.0",
+		"eslint-config-carnesen": "7.0.0",
+		"ts-node": "10.5.0",
+		"typescript": "4.5.5"
 	},
 	"repository": "github:carnesen/carnesen-dot-com",
 	"author": "Chris Arnesen",
