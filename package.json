@@ -15,23 +15,23 @@
 	},
 	"dependencies": {
 		"@carnesen/buzz": "github:carnesen/buzz#carnesen-buzz-2022.2.0",
-		"@carnesen/cli-website-server": "2022.2.0",
+		"@carnesen/cli-website-server": "2023.1.0",
 		"@carnesen/google-cloud": "0.3.0",
 		"@carnesen/mathjs-app": "2022.2.1",
 		"@carnesen/meme-me": "github:carnesen/meme-me#carnesen-meme-me-2022.2.0",
 		"@carnesen/redirector": "0.3.0",
 		"@carnesen/reveal-me": "github:carnesen/reveal-me#carnesen-reveal-me-2022.2.0",
 		"@carnesen/run-and-exit": "1.0.0",
-		"@carnesen/www": "2022.2.0"
+		"@carnesen/www": "2022.11.0"
 	},
 	"devDependencies": {
-		"@carnesen/dev": "0.1.0",
-		"@carnesen/tsconfig": "0.4.1",
-		"@types/node": "17.0.21",
-		"eslint": "7.32.0",
-		"eslint-config-carnesen": "7.0.0",
-		"ts-node": "10.5.0",
-		"typescript": "4.5.5"
+		"@carnesen/dev": "0.4.0",
+		"@carnesen/tsconfig": "0.5.0",
+		"@types/node": "18.11.18",
+		"eslint": "8.31.0",
+		"eslint-config-carnesen": "11.0.0",
+		"ts-node": "10.9.1",
+		"typescript": "4.9.4"
 	},
 	"repository": "github:carnesen/carnesen-dot-com",
 	"author": "Chris Arnesen",
