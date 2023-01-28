@@ -16,7 +16,7 @@
 	"dependencies": {
 		"@carnesen/buzz": "github:carnesen/buzz#carnesen-buzz-2022.2.0",
 		"@carnesen/cli-website-server": "2023.1.0",
-		"@carnesen/google-cloud": "0.3.0",
+		"@carnesen/google-cloud": "0.4.0",
 		"@carnesen/mathjs-app": "2022.2.1",
 		"@carnesen/meme-me": "github:carnesen/meme-me#carnesen-meme-me-2022.2.0",
 		"@carnesen/redirector": "0.3.0",
